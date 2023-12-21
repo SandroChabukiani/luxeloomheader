@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+.navbar{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #1C1B1F;
+    height: 230px;
+}
+.head{
+    height: 140px;
+    width: 90%;
+    margin-left: 5%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divider{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.logo{
+    color: #CCAC00;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+.nn{
+    display: flex;
+    width: 130px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nn h1 {
+    color: var(--Text-main-color, #FFF);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.nn h2{
+    width: 24px;
+    height: 24px;
+}
+.wrapper{
+    width: 1px;
+    height: 20px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%), #FFF;
+}
+.svgs{
+    display: flex;
+    width: 172px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.dividerwrapper{
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%), #A9A9A9;
+    height: 1px;
+}
+.second{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.child{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.child h1{
+    color: var(--Text-main-color, #FFF);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
